@@ -1,6 +1,6 @@
 # Portfolio Site - Nafis Kamal Zisan
 
-A modern, responsive portfolio website built with HTML5 and CSS3.
+A portfolio website built with HTML5 and CSS3.
 
 ## Features
 
@@ -21,7 +21,7 @@ A modern, responsive portfolio website built with HTML5 and CSS3.
 
 - HTML5
 - CSS3 (with CSS Variables and Grid/Flexbox)
-- Vanilla JavaScript (theme toggle, page info)
+- JavaScript
 
 ## Files
 
@@ -39,13 +39,6 @@ A modern, responsive portfolio website built with HTML5 and CSS3.
 3. Toggle dark/light mode using the button in the header
 4. Navigate between pages using the menu
 
-## Deployment
-
-This is a static site and can be deployed to:
-- GitHub Pages
-- Vercel
-- Netlify
-- Any static hosting service
 
 ## Author
 
