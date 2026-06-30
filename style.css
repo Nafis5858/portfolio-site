@@ -532,12 +532,10 @@ blockquote {
     margin: 0;
     padding-left: 0;
     list-style: none;
-    counter-reset: movie-rank;
 }
 
 .movie-list li {
     position: relative;
-    counter-increment: movie-rank;
     padding: 12px;
     border: 1px solid var(--table-border);
     border-radius: 8px;
@@ -549,24 +547,6 @@ blockquote {
 .movie-list li:hover {
     transform: translateY(-5px);
     border-color: var(--primary-color);
-}
-
-.movie-list li::before {
-    content: counter(movie-rank);
-    position: absolute;
-    top: 18px;
-    left: 18px;
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    background-color: var(--primary-color);
-    color: #ffffff;
-    display: grid;
-    place-items: center;
-    font-size: 0.85rem;
-    font-weight: bold;
-    box-shadow: 0 4px 12px var(--surface-shadow);
-    z-index: 1;
 }
 
 .movie-card img {
