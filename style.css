@@ -64,6 +64,31 @@ h2,
     box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
 }
 
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 26px 28px;
+    margin: 20px 0;
+    background-color: var(--surface-color);
+    border: 1px solid var(--table-border);
+    border-radius: 24px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+}
+
+header h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 2.6rem);
+    line-height: 1.05;
+    color: var(--primary-color);
+}
+
+header nav {
+    flex: 1 1 100%;
+}
+
 .site-title {
     margin: 0;
     font-size: clamp(2rem, 4vw, 2.6rem);
@@ -423,10 +448,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     font-weight: bold;
-    transition: opacity 0.2s;
+    transition: opacity 0.2s, color 0.2s;
 }
 
 nav ul li a:hover {
